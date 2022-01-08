@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*first*/
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #5D6D7E;
+}
+
+.nav__bar {
+  display:flex;
+  list-style: none;
+}
+
+.nav__bar--big {
+  border: solid 1px;
+  padding: 20px;
+  background-color: #85929E;
+}
+
+/*second*/
+.card {
+  display: flex;
+  background-color: #AAB7B8;
+  align-items: center;
+  width: 40%;
+  margin: 1%;
+  padding: 1%
+}
+
+.card__img {
+  width: 30%;
+  padding: 1%
+}
+
+.card__description {
+  width: 40%;
+}
+
+.btn {
+  width: 7%;
+  height: 7%;
+}
