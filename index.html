@@ -10,22 +10,61 @@
 <body>
   <!--first-->
   <header class="nav"><!--block-->
-    <h1>test git</h1>
+    <h1>git comands</h1>
     <nav>
       <ul class="nav__bar">
         <li class="nav__bar--big">git status</li>
-        <li class="nav__bar--big">git push origin main</li>
-        <li class="nav__bar--big">git commit</li>
         <li class="nav__bar--big">git add</li>
+        <li class="nav__bar--big">git commit -m"message"</li>
+        <li class="nav__bar--big">git push origin main or master</li>
+        <li class="nav__bar--big">git reset HEAD~</li>
+        <li class="nav__bar--big">git commit --amend </li>
+        <li class="nav__bar--big">git commit --amend --no-edit</li>
       </ul>
     </nav>
   </header>
   <!--second-->
-  <main>
-    <section class="card"><!--block-->
-      <h2 class="card__title">this is a card</h2>
+  <main class="">
+    <section class="card"><!--block1-->
+      <h2 class="card__title">git status</h2>
       <img src="../img/ronco.jpeg" alt="cat picture"  class="card__img">
-      <p class="card__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste praesentium quos quo distinctio? Fugit voluptatibus error repellat. Qui accusantium quae ratione repudiandae vitae fugit at dolor aut beatae quos? Quasi natus vitae animi modi rem suscipit praesentium illo in nesciunt.</p>
+      <p class="card__description">check the commits</p>
+      <button class="btn">send</button>
+    </section>
+    <section class="card"><!--block2-->
+      <h2 class="card__title">git add</h2>
+      <img src="../img/ronco.jpeg" alt="cat picture"  class="card__img">
+      <p class="card__description">add the changes to staged</p>
+      <button class="btn">send</button>
+    </section>
+    <section class="card"><!--block3-->
+      <h2 class="card__title">git commit</h2>
+      <img src="../img/ronco.jpeg" alt="cat picture"  class="card__img">
+      <p class="card__description">when the changes are in staged, you put this comand and you do a commit</p>
+      <button class="btn">send</button>
+    </section>
+    <section class="card"><!--block4-->
+      <h2 class="card__title">git push origin main or master</h2>
+      <img src="../img/ronco.jpeg" alt="cat picture"  class="card__img">
+      <p class="card__description"></p>
+      <button class="btn">send</button>
+    </section>
+    <section class="card"><!--block5-->
+      <h2 class="card__title">git reset HEAD~</h2>
+      <img src="../img/ronco.jpeg" alt="cat picture"  class="card__img">
+      <p class="card__description">is for undo a commit</p>
+      <button class="btn">send</button>
+    </section>
+    <section class="card"><!--block6-->
+      <h2 class="card__title">git commit --amend</h2>
+      <img src="../img/ronco.jpeg" alt="cat picture"  class="card__img">
+      <p class="card__description">is for change commit message and add changes to existing commit</p>
+      <button class="btn">send</button>
+    </section>
+    <section class="card"><!--block7-->
+      <h2 class="card__title">git commit --amend --no-edit</h2>
+      <img src="../img/ronco.jpeg" alt="cat picture"  class="card__img">
+      <p class="card__description">add the changes to exist commit</p>
       <button class="btn">send</button>
     </section>
   </main>

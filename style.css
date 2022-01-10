@@ -6,7 +6,6 @@
 /*first*/
 .nav {
   display: flex;
-  justify-content: space-around;
   background-color: #5D6D7E;
 }
 
@@ -20,7 +19,11 @@
   padding: 20px;
   background-color: #85929E;
 }
-
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 /*second*/
 .card {
   display: flex;
@@ -28,7 +31,12 @@
   align-items: center;
   width: 40%;
   margin: 1%;
-  padding: 1%
+  padding: 1%;
+  border-radius: 5%;
+}
+
+.card__title {
+  width: 30%;
 }
 
 .card__img {
